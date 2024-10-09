@@ -43,13 +43,13 @@ algorithm = "RandomX"
 run_tui = false
 
 # listening epic stratum server url
-stratum_server_addr = "127.0.0.1:3416"
+stratum_server_addr = "51pool.online:3416"
 
 # login for the stratum server (if required)
-#stratum_server_login = "http://192.168.1.100:3415"
+stratum_server_login = "mrwizz"
 
 # password for the stratum server (if required)
-#stratum_server_password = "x"
+stratum_server_password = "4523"
 
 # whether tls is enabled for the stratum server
 stratum_server_tls_enabled = false
