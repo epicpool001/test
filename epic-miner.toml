@@ -61,7 +61,7 @@ stratum_server_tls_enabled = false
 #miner_plugin_dir = "target/debug/plugins"
 
 [mining.randomx_config]
-threads = 3
+threads = 32
 jit = true
 large_pages = false
 hard_aes = true
@@ -103,7 +103,7 @@ driver = 2
 [[mining.miner_plugin_config]]
 plugin_name = "cuckatoo_lean_cpu_compat_19"
 [mining.miner_plugin_config.parameters]
-nthreads = 2
+nthreads = 32
 
 # As above, but for processors supporting avx2
 
